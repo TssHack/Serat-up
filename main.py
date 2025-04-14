@@ -18,7 +18,7 @@ bot = Client(BOT_TOKEN)
 
 # --- ثبت هندلرها ---
 # پیام‌های متنی در چت خصوصی
-bot.add_event_handler(handle_message, (text & private_chat))
+#bot.add_event_handler(handle_message, (text & private_chat))
 
 # دکمه‌های اینلاین (عمومی و ادمین)
 # تفکیک هندلر کال‌بک‌ها برای خوانایی بهتر
