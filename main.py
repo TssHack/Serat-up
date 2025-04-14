@@ -5,9 +5,9 @@ from balethon import Client
 from balethon.conditions import text, private_chat, callback_data # یا سایر conditions مورد نیاز
 from config import BOT_TOKEN
 import database as db # برای اطمینان از initialize شدن دیتابیس
-from handlers.message_handlers import handle_message
-from handlers.callback_handlers import on_callback
-from handlers.admin_handlers import handle_admin_callbacks # هندلر جدید ادمین
+from message_handlers import handle_message
+from callback_handlers import on_callback
+from admin_handlers import handle_admin_callbacks # هندلر جدید ادمین
 
 # تنظیمات لاگ‌گیری (اختیاری ولی مفید)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
