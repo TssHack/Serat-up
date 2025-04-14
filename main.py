@@ -1,7 +1,7 @@
 # main.py
 import asyncio
 import logging
-from balethon import Client
+#from balethon import Client
 from balethon.conditions import text, private_chat, callback_data # یا سایر conditions مورد نیاز
 from config import BOT_TOKEN
 import database as db # برای اطمینان از initialize شدن دیتابیس
