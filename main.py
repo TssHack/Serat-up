@@ -7,9 +7,9 @@ from balethon.objects import Message, CallbackQuery # CallbackQuery را هم ا
 from balethon.conditions import text # فقط text را وارد کنید
 from config import BOT_TOKEN
 import database as db # برای اطمینان از initialize شدن دیتابیس
-from handlers.message_handlers import handle_message
-from handlers.callback_handlers import on_callback
-from handlers.admin_handlers import handle_admin_callbacks
+from message_handlers import handle_message
+from callback_handlers import on_callback
+from admin_handlers import handle_admin_callbacks
 
 # تنظیمات لاگ‌گیری (اختیاری ولی مفید)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
